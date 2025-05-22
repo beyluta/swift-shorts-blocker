@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "ShortsBlocker Extension",
+        "description": "Hide Shorts for YouTube"
+    },
+    "extension_description": {
+        "message": "This is ShortsBlocker Extension. You should tell us what your extension does here.",
+        "description": "Hides shorts from the YouTube website on MacOS and iOS Safari."
+    }
+}
