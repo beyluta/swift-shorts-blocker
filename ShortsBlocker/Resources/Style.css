@@ -31,7 +31,6 @@ body {
 .container {
   background: #fff;
   border-radius: 18px;
-  box-shadow: 0 4px 24px rgba(30, 41, 59, 0.08);
   padding: 2.5rem 1.5rem 2rem 1.5rem;
   max-width: 350px;
   width: 90%;
@@ -67,8 +66,25 @@ h1 {
   line-height: 1.5;
 }
 
-.footer {
+.footer, .github {
   font-size: 0.98rem;
   color: #7b7b9d;
   margin-top: 1.2rem;
+}
+
+.github {
+    font-size: 0.80rem;
+}
+
+.github > a {
+    text-decoration: none;
+    color: #4f4f6e;
+    font-weight: bolder;
+}
+
+.github > a > img{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    padding: 0 0 5px 2.5px;
 }
