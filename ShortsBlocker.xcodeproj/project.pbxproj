@@ -248,8 +248,9 @@
 		848223C52DDE51A60011161F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ShortsBlocker Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "ShortsBlocker Extension";
@@ -267,6 +268,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.beyluta.ShortsBlocker.Extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -277,8 +279,9 @@
 		848223C62DDE51A60011161F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ShortsBlocker Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "ShortsBlocker Extension";
@@ -296,6 +299,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.beyluta.ShortsBlocker.Extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
