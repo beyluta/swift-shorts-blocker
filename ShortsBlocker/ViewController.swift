@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  ShortsBlocker
-//
-//  Created by admin on 21.05.2025.
-//
-
 import UIKit
 import WebKit
 

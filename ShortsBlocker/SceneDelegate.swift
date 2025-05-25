@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  ShortsBlocker
-//
-//  Created by admin on 21.05.2025.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {

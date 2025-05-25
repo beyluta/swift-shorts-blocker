@@ -1,10 +1,3 @@
-//
-//  Hide Shorts for YouTube Extension
-//
-//  Created and maintained by Pedro Ribeiro (aka Beyluta on GitHub).
-//  This is an Open-Source project. Feel free to contribute.
-//
-
 import SafariServices
 import os.log
 
