@@ -1,0 +1,75 @@
+:root {
+  color-scheme: light dark;
+
+  --spacing: 20px;
+}
+
+html {
+  height: 100%;
+  background-color: white;
+}
+
+body {
+  background-color: white;
+  height: 100%;
+
+  font: -apple-system-short-body;
+  text-align: center;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
+.accordion {
+  max-width: 500px;
+  margin: 2rem auto;
+  border-radius: 12px;
+  background: #f7fbff;
+  box-shadow: 0 2px 8px rgba(74, 144, 226, 0.08);
+  padding: 1rem;
+}
+
+.accordion details {
+  margin-bottom: 1rem;
+  border: 1px solid #8E43CB;
+  border-radius: 8px;
+  background: #eaf4fe;
+  transition: box-shadow 0.2s;
+  box-shadow: 0 1px 3px rgba(74, 144, 226, 0.06);
+  overflow: hidden;
+}
+
+.accordion details[open] {
+  box-shadow: 0 2px 8px rgba(74, 144, 226, 0.12);
+  background: #8F43CC;
+}
+
+.accordion summary {
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  border-bottom: 1px solid #8E43CB;
+  color: #FFF;
+  background: #7437B3;
+  border-radius: 8px 8px 0 0;
+  transition: background 0.2s;
+  user-select: none;
+}
+
+.accordion details[open] summary {
+  background: #8E43CB;
+  border-radius: 8px 8px 0 0;
+}
+
+.accordion p {
+  margin: 0;
+  padding: 1rem;
+  background: #f7fbff;
+  border-radius: 0 0 8px 8px;
+  font-size: 1rem;
+  color: #234;
+}

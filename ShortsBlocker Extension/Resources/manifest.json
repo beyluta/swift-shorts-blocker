@@ -20,5 +20,8 @@
         "run_at": "document_end"
     }],
 
-    "permissions": [ "activeTab" ]
+    "permissions": [ "activeTab" ],
+    "action": {
+        "default_popup": "popup.html"
+    }
 }
