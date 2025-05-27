@@ -20,7 +20,6 @@ body {
 .icon {
   width: 100px;
   height: 100px;
-  margin-bottom: 20px;
 }
 
 .accordion {
@@ -54,6 +53,7 @@ body {
   cursor: pointer;
   outline: none;
   border-bottom: 1px solid #8E43CB;
+  color: #FFF;
   background: #7437B3;
   border-radius: 8px 8px 0 0;
   transition: background 0.2s;
