@@ -41,6 +41,10 @@ body {
   overflow: hidden;
 }
 
+.accordion h1 {
+  color: #234;
+}
+
 .accordion details[open] {
   box-shadow: 0 2px 8px rgba(74, 144, 226, 0.12);
   background: #8F43CC;
