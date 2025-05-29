@@ -9,8 +9,12 @@
 ## Features
 
 - Blocks YouTube Shorts on the main page and video pages
-- Lightweight and privacy-friendly
+- Code is available for anyone to see or modify
 - Easy to install and use
+
+## Screenshots
+
+![Usage Screenshot](ShortsBlocker/Resources/Background.png)
 
 ## Prerequisites
 
@@ -22,8 +26,10 @@
 
 1. Clone or download this repository
 2. Open the project in Xcode
-3. Build and run the extension to install \*\* in Safari
-4. Open the app and follow its instructions
+3. Enable developer mode on your iPhone device
+4. Connect your iPhone to your Mac via USB
+5. Build and run the project to install the App
+6. Open the App and follow the instructions
 
 ## Contributing
 
